@@ -1,14 +1,19 @@
 # System
 .DS_Store
-.env
 
 # Python
-venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
 # Data
 data/
+
+# Environments
+.env
+.venv
+env/
+venv/
